@@ -1,0 +1,14 @@
+extends layout
+
+block content
+  legend Statics
+  button.btn.btn-primary(id="statsBtn") All Users
+  br
+  br
+  button.btn.btn-primary(id="statsBtnUsers") Users
+  br
+  br
+  div(id="a" style="display:none") 
+  button.btn.btn-primary(id="download" style="display:none") Download
+  canvas(id="myChart" width="1000" height="400")
+  canvas(id="myChartA" width="1000" height="400")
